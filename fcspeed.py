@@ -9,7 +9,8 @@ from datetime import datetime
 
 LOG_FILE = '/var/log/fc_bandwidth.csv'
 INTERVAL = 5  # seconds
-FRAME_SIZE = 2048  # bytes per frame
+FRAME_SIZE = 2148  
+# bytes per frame - Assuming The Maximum FC Frame Size accoding to https://en.wikipedia.org/wiki/Fibre_Channel_frame
 
 def run_midclt_call(method):
     """Call midclt and parse JSON output."""
