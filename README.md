@@ -272,3 +272,6 @@ Logging to: /var/log/fc_bandwidth.csv
 
 ```
 
+![image](https://github.com/user-attachments/assets/e393ebc1-40f4-498c-a239-e822fd74c1f8)
+
+
